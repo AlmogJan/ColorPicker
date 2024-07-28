@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ColorPicker } from "./comps/colorPicker";
+import { ColorPicker } from "./comps/colorPicker.tsx";
 
 export function App() {
   const [message, setMessage] = useState("");
